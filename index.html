@@ -1,70 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Renan J Paula</title>
+    <title>Portifólio Stephanni C Rocha</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
+    <!-- Font OpenSans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" >
 
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
-    <link rel="stylesheet" href="assets/css/languages.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/objetivo.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/educacao.css">
 </head>
 
 <body>
-    <main class="main">
+    <div class="main">
         <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
+            <img src="./assets/imgs/minha-foto.jpg" alt="Stephanni Cavalcante" class="image" id="profile.image">
 
-            <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
-            </h1>
-
-            <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
-                <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
+            <button class="linkedin" type="button">
+                <a href="https://www.linkedin.com/in/stephanni/" target="_blank">
+                    <img src="./assets/imgs/icons/linkedin.svg" alt="linkedin">
+                </a>
+            </button>
+    
+            <h1 class="title">Olá, eu sou a <span id="profile.name"><br>Carregando...</span></h1>
+    
+            <div class="info">
+                <p class="cargo" id="profile.cargo">Carregando...</p>
+                <p class="cidade" id="profile.cidade">Carregando...</p>
+                <p class="telefone">
+                    <a href="tel:(11) 9 9757-7654" id="profile.telefone">Carregando</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+                    <a href="mailto:stephanni.cavalcante.rocha@gmail.com" id="profile.email">Carregando...</a>
                 </p>
             </div>
         </header>
+        
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                Objetivo
+            </button>
+            <div class="content">
+                <p class="objetivo" id="profile.objetivo">Carregando...
+                <br>
+                <br>    
+                Carregando...
+                <br>
+                <br>
+                Carregando...
+                </p>
+            </div>
+        </section>
 
         <section class="acordeon">
             <button class="trigger" type="button">
-                <h2>Skills</h2>
+                Habilidades
             </button>
-
             <div class="content">
                 <div class="skills">
-                    <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
+                    <section class="tecnologias">
+                        <h3>Tecnologias: </h3>
+                        <ul id="profile.skills.tecnologias">
+                            ...
+                        </ul>
+                    </section>
+                    
+                    <section class="tecnologias">
+                        <h3>Ferramentas</h3>
+                        <ul id="profile.skills.ferramentas">
+                            ...
                         </ul>
                     </section>
 
-                    <section class="personal">
-                        <h3>Pessoal:</h3>
+                    <section class="soft">
+                        <h3>Soft Skills: </h3>
                         <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
+                            ...
                         </ul>
                     </section>
                 </div>
@@ -73,48 +97,42 @@
 
         <section class="acordeon">
             <button class="trigger" type="button">
-                <h2>Idiomas</h2>
+                Idiomas
             </button>
-
             <div class="content">
-                <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
+                <ul class="languages" id="profile.idiomas">
+                    ...
                 </ul>
             </div>
         </section>
 
         <section class="acordeon">
             <button class="trigger" type="button">
-                <h2>Portfólio</h2>
+                Educação
             </button>
+            <div class="content">
+                <ul class="educacao" id="profile.educacao">
+                    ...
+                </ul>
+            </div>
+        </section>
 
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Portfólio
+            </button>
             <div class="content">
                 <ul class="portfolio" id="profile.portfolio">
+                 ...
                 </ul>
             </div>
         </section>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
-            </button>
+    </div>
 
-            <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
-                </ul>
-            </div>
-        </section>
-
-        <footer>
-            <a href="https://www.dio.me/" target="_blank">
-                <img src="assets/img/dio.svg" alt="DIO">
-            </a>
-        </footer>
-    </main>
-
-    <script src="assets/js/acordeon.js"></script>
-    <script src="assets/js/api.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
