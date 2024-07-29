@@ -1,9 +1,9 @@
 {
   "name": "Stephanni C Rocha",
-  "photo": "https://avatars.githubusercontent.com/u/126830706?v=4",
-  "job": "Estudante Tech",
-  "location": "São Paulo - SP/BR",
-  "phone": "(11) 99757-7654",
+  "image": "https://avatars.githubusercontent.com/u/126830706?v=4",
+  "cargo": "Estudante Tech",
+  "cidade": "São Paulo - SP/BR",
+  "telefone": "(11) 99757-7654",
   "email": "stephanni.cavalcante.rocha@gmail.com",
   "skills": {
     "hardSkills": [
