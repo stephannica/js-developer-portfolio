@@ -41,25 +41,13 @@
       "Adaptabilidade e Flexibidade"
     ]
   },
-  "languages": [
+  "idiomas": [
     "Português BR",
     "Inglês (intermediário)",
     "Espanhol (intermediário)",
     "Italiano (iniciante)"
   ],
-  "portfolio": [
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
-    }
-  ],
-  "professionalExperience": [
+  "educacao": [
     {
       "name": "Arquiteto de software / S3 BANK",
       "period": "2022 - até o momento",
@@ -74,6 +62,18 @@
       "name": "CEO / Brain Machine",
       "period": "2016 - 2021",
       "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Projeto Minha Primeira Apresentação",
+      "url": "https://github.com/stephannica/firstProject.git",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "github": true
     }
   ]
 }
