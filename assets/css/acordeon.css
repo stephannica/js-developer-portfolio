@@ -33,7 +33,7 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/assets/imgs/icons/seta-cima.svg);
+    background-image: url(js-developer-portfolio/assets/imgs/icons/seta-cima.svg);
     transition: 0.25s;
 }
 
