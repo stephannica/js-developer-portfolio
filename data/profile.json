@@ -62,19 +62,14 @@
   ],
   "educacao": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "curso": "Técn. Análise e Desenvolvimento de Sistemas",
+      "localidade": "UNICSUL - Universidade Cruzeiro do Sul",
+      "periodo": "Fev 2023 - Dez 2024"
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "curso": "Ensino médio integrado ao técnico de Administração",
+      "localidade": "ETEC Professor Camargo Aranha",
+      "periodo": "Fev 2015 - Dez 2017"
     }
   ],
   "portfolio": [
