@@ -31,20 +31,20 @@
     ],
     "ferramentas": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/stephannica/js-developer-portfolio/main/data/imgs/git.png"
       },
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "Github",
+        "logo": "https://raw.githubusercontent.com/stephannica/js-developer-portfolio/main/data/imgs/github.png"
       },
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "Excel",
+        "logo": "https://raw.githubusercontent.com/stephannica/js-developer-portfolio/main/data/imgs/excel.png"
       },
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "Powerbi",
+        "logo": "https://raw.githubusercontent.com/stephannica/js-developer-portfolio/main/data/imgs/powerbi.png"
       }
     ],
     "softSkills": [
