@@ -50,19 +50,19 @@
 }
 
 .info .cargo::before{
-    background-image: url(/Portfólio/assets/imgs/icons/cargo.svg);
+    background-image: url(/assets/imgs/icons/cargo.svg);
 }
 
 .info .cidade::before{
-    background-image: url(/Portfólio/assets/imgs/icons/cidade.svg);
+    background-image: url(/assets/imgs/icons/cidade.svg);
 }
 
 .info .email::before{
-    background-image: url(/Portfólio/assets/imgs/icons/e-mail.svg);
+    background-image: url(/assets/imgs/icons/e-mail.svg);
 }
 
 .info .telefone::before{
-    background-image: url(/Portfólio/assets/imgs/icons/telefone.svg);
+    background-image: url(/assets/imgs/icons/telefone.svg);
 }
 
 @media only screen and (min-width: 768px) {
